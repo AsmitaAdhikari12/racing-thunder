@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>animation</title>
+    <link rel="stylesheet" type="text/css" href="car.css" />
+  </head>
+  <body>
+    <div id="scene">
+      <div id="bdiv">
+        <button onclick="start(),playAudio()" id="btn">Start</button>
+        <button onclick="stop(),playAudio()" id="btn">Stop</button>
+      </div>
+    </div>
+
+    <div id="car">
+      <img
+        src="images/icons8-double-decker-bus-48.png"
+        style="width: 150px"
+        id="im"
+      />
+      <img src="images/icons8-girl-48.png" class="girl" />
+    </div>
+
+    <audio id="myAudio" src="images/mixkit-old-car-arriving-1536.wav"></audio>
+
+    <script src="car.js"></script>
+  </body>
+</html>

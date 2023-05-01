@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="new.css" />
+<title>javascript</title>
+</head>
+<body>
+    <h2>My First JavaScript</h2>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+
+<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+
+<img id="myImage" src="pic_bulboff.gif" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+
+<script>
+    console.log("here we go");
+    var a=2;
+    var b=3;
+    console.log (sum= a + b);
+    console.log (sub= a - b);
+    console.log (mul= a *  b);
+    console.log (div= a /  b);
+
+    function add(numOne,numTwo){
+        let sum= numOne + numTwo;
+        return sum;
+    }
+    let sumOfTwoNumber = add(4,3);
+console.log(sumOfTwoNumber)
+    console.log("here we end");
+
+     const PI=3.14;
+     
+
+</script>
+</body>
+</html>
