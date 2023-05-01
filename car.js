@@ -1,5 +1,7 @@
 var x;
 var m = 0;
+
+// This starts the engine
 function start() {
   x = setInterval(run, 80);
 
